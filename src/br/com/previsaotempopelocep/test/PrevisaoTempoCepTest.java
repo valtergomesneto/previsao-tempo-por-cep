@@ -1,8 +1,7 @@
 package br.com.previsaotempopelocep.test;
-import br.com.previsaotempopelocep.dominio.Endereco;
-import br.com.previsaotempopelocep.dominio.ServicoCep;
-import br.com.previsaotempopelocep.dominio.ServicoTempo;
-import br.com.previsaotempopelocep.dominio.Tempo;
+import br.com.previsaotempopelocep.dominio.*;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.util.Scanner;
 
@@ -19,7 +18,6 @@ public class PrevisaoTempoCepTest {
         System.out.println("Bairro: " + endereco.getBairro());
         System.out.println("Localidade: " + endereco.getLocalidade());
         System.out.println("GeoCode: " + endereco.getGeoLocalidade());
-        System.out.println("Resumo da Previsão do tempo: " + tempo.getResumo());
-        System.out.println("Temperatura Máxima hoje em " + endereco.getBairro() + " é de " + tempo.getTemp_max() + "º e a temperatura minima é " + tempo.getTemp_min());
+        System.out.println(tempo.getResumo() + " " + tempo.getTemp_max() + " " + tempo.getTemp_min() + " " + tempo.getName());
     }
 }
