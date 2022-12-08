@@ -16,11 +16,10 @@ public class Tempo {
 
     public String getTemp_min() {return temp_min;}
 
-    /*@Override
+    @Override
     public String toString() {
-<<<<<<< HEAD
         return "Resumo Tempo hoje: " + resumo + "\n" + "Temperatura Maxima hoje: " + temp_max + "\n" +"Temperatura Minima hoje: " + temp_min;
-    }*/
+    }
 
     public String getDateTime() {
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");

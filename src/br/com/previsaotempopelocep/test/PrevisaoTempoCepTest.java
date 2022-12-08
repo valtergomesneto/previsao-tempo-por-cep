@@ -29,5 +29,7 @@ public class PrevisaoTempoCepTest {
                 "\nTemperatura Maxima hoje:" + tempo.getTemp_max() + "ºC" +
                 "\nTemperatura Minima hoje:" + tempo.getTemp_min() + "ºC");
 
+//        System.out.println(tempo);
+
     }
 }
