@@ -21,8 +21,9 @@ public class PrevisaoTempoCepTest {
         System.out.println("Bairro: " + endereco.getBairro());
         System.out.println("Localidade: " + endereco.getLocalidade());
         System.out.println("GeoCode: " + endereco.getGeoLocalidade());
-        System.out.println("O tempo hoje em " + endereco.getBairro() + " é de " + tempo.getResumo() + "\nTemperatura Maxima hoje:" + tempo.getTemp_max() + "\nTemperatura Minima hoje:" + tempo.getTemp_min());
+//        System.out.println(tempo.getResumo() + " " + tempo.getTemp_max() + " " + tempo.getTemp_min() + " " + tempo.getName());
 
+        System.out.println(tempo);
 
 
     }

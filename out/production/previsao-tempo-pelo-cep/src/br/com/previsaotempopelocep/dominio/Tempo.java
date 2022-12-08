@@ -4,9 +4,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 public class Tempo {
 
-    public String resumo;
-    public String temp_max;
-    public String temp_min;
+    String resumo;
+    String temp_max;
+    String temp_min;
 
     public String getResumo() {return resumo;}
 
@@ -14,10 +14,10 @@ public class Tempo {
 
     public String getTemp_min() {return temp_min;}
 
-    /*@Override
+    @Override
     public String toString() {
-        return "Resumo Tempo hoje: " + resumo + "\n" + "Temperatura Maxima hoje: " + temp_max + "\n" +"Temperatura Minima hoje: " + temp_min;
-    }*/
+        return "resumo: " + resumo + "\n" + "temp_max: " + temp_max + "\n" +"temp_min: " + temp_min;
+    }
 
     public String getDateTime() {
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
