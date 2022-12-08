@@ -25,6 +25,7 @@ public class PrevisaoTempoCepTest {
 
         System.out.println(tempo);
 
+        System.out.println(Util.turnoDia());
 
     }
 }
