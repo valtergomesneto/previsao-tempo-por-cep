@@ -32,7 +32,12 @@ public class ServicoTempo {
             JSONObject jsonObject = new JSONObject(jsonEmString);
 
             //percorre o objeto json ate a tag com o turno e sobrescreve a instancia do jsonobject
+<<<<<<< HEAD
             jsonObject = jsonObject.getJSONObject(geoCode).getJSONObject(dataAtual).getJSONObject("manha");
+=======
+//            jsonObject = jsonObject.getJSONObject(geoCode).getJSONObject(dataAtual).getJSONObject("manha");
+            jsonObject = jsonObject.getJSONObject(geoCode).getJSONObject(dataAtual).getJSONObject(Util.turnoDia());
+>>>>>>> ee9e9b7b7c3cae612a774e05ce71e335690aa072
 
             Gson gson = new Gson();
             Tempo tempo = gson.fromJson(String.valueOf(jsonObject), Tempo.class);

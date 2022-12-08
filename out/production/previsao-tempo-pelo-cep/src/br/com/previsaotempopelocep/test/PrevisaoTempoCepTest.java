@@ -25,6 +25,10 @@ public class PrevisaoTempoCepTest {
 
         System.out.println(tempo);
 
+<<<<<<< HEAD
+=======
+        System.out.println(Util.turnoDia());
+>>>>>>> ee9e9b7b7c3cae612a774e05ce71e335690aa072
 
     }
 }

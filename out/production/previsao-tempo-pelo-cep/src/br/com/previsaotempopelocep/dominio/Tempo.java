@@ -4,9 +4,27 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 public class Tempo {
 
+<<<<<<< HEAD
     String resumo;
     String temp_max;
     String temp_min;
+=======
+    private String resumo;
+    private String temp_max;
+    private String temp_min;
+
+    public void setResumo(String resumo) {
+        this.resumo = resumo;
+    }
+
+    public void setTemp_max(String temp_max) {
+        this.temp_max = temp_max;
+    }
+
+    public void setTemp_min(String temp_min) {
+        this.temp_min = temp_min;
+    }
+>>>>>>> ee9e9b7b7c3cae612a774e05ce71e335690aa072
 
     public String getResumo() {return resumo;}
 
